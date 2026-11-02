@@ -1,4 +1,4 @@
-package main
+package sum
 
 func Sum(numbers []int) int {
 	var sum int
@@ -11,7 +11,7 @@ func Sum(numbers []int) int {
 
 // variadic functions take a variable number of arguments
 func SumAll(numbersToSum ...[]int) []int {
-	// use append to add the the return value of Sum
+	// use append to add the return value of Sum
 	// to the starting empty sums slice
 	var sums []int
 
